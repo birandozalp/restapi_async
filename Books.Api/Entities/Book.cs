@@ -22,6 +22,7 @@ namespace Books.Api.Entities
 
         public Guid AuthorId { get; set; }
         public Author Author { get; set; }
+        public string Edded { get;set;}
     }
 
 }
